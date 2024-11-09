@@ -1,0 +1,59 @@
+{
+    "recipes": [
+      {
+        "recipe_image": "https://i.ibb.co.com/drs39kK/223382-chicken-stir-fry-Rita-1x1-1-b6b835ccfc714bb6a8391a7c47a06a84.jpg",
+        "recipe_id": "001",
+        "recipe_name": "Chicken Stir Fry",
+        "short_description": "A quick and easy chicken stir fry with vegetables.",
+        "ingredients": ["500 g chicken breast", "2 tbsp olive oil", "1 bell pepper", "1 onion", "100 g broccoli", "2 cloves garlic", "50 ml soy sauce"],
+        "preparing_time": "25 min",
+        "calories": "350 calories"
+      },
+      {
+        "recipe_image": "https://i.ibb.co.com/6bH2dF4/Umamiology-Spaghetti-Bolognese-Recipe-Card16-500x375.jpg",
+        "recipe_id": "002",
+        "recipe_name": "Spaghetti Bolognese",
+        "short_description": "Classic Italian spaghetti with rich bolognese sauce.",
+        "ingredients": ["400 g spaghetti", "300 g ground beef", "1 onion", "2 cloves garlic", "400 g canned tomatoes", "50 g Parmesan cheese", "Salt and pepper"],
+        "preparing_time": "45 min",
+        "calories": "600 calories"
+      },
+      {
+        "recipe_image": "https://i.ibb.co.com/7Xrg5j7/Kale-salad-1b22634.jpg",
+        "recipe_id": "003",
+        "recipe_name": "Vegan Salad",
+        "short_description": "A refreshing vegan salad with a variety of greens and vegetables.",
+        "ingredients": ["100 g lettuce", "50 g spinach", "1 cucumber", "1 carrot", "50 g cherry tomatoes", "20 g pumpkin seeds", "2 tbsp olive oil"],
+        "preparing_time": "15 min",
+        "calories": "150 calories"
+      },
+      {
+        "recipe_image": "https://i.ibb.co.com/1bPmpYY/21014-Good-old-Fashioned-Pancakes-mfs-002-0e249c95678f446291ebc9408ae64c05.jpg",
+        "recipe_id": "004",
+        "recipe_name": "Fluffy Pancakes",
+        "short_description": "Soft and fluffy pancakes perfect for breakfast.",
+        "ingredients": ["200 g flour", "2 eggs", "300 ml milk", "2 tbsp sugar", "1 tsp baking powder", "1 pinch salt", "Butter for frying"],
+        "preparing_time": "20 min",
+        "calories": "290 calories"
+      },
+      {
+        "recipe_image": "https://i.ibb.co.com/7nB6nfC/229063-Classic-Restaurant-Caesar-Salad-ddmfs-4x3-231-89bafa5e54dd4a8c933cf2a5f9f12a6f.jpg",
+        "recipe_id": "005",
+        "recipe_name": "Caesar Salad",
+        "short_description": "Classic Caesar salad with crunchy croutons and Parmesan cheese.",
+        "ingredients": ["200 g romaine lettuce", "50 g croutons", "30 g Parmesan cheese", "100 ml Caesar dressing", "1 grilled chicken breast"],
+        "preparing_time": "15 min",
+        "calories": "250 calories"
+      },
+      {
+        "recipe_image": "https://i.ibb.co.com/4F4R8Ls/triple-chocolate-cake-4.jpg",
+        "recipe_id": "006",
+        "recipe_name": "Chocolate Cake",
+        "short_description": "Rich and moist chocolate cake for dessert lovers.",
+        "ingredients": ["200 g flour", "100 g cocoa powder", "200 g sugar", "3 eggs", "100 ml milk", "100 g butter", "1 tsp baking powder"],
+        "preparing_time": "60 min",
+        "calories": "450 calories"
+      }
+    ]
+  }
+  
