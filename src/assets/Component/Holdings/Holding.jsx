@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 const Holding = ({recipeses}) => {
     return (
         <div className="w-1/3">
@@ -5,5 +6,9 @@ const Holding = ({recipeses}) => {
         </div>
     );
 };
+
+Holding.propTypes={
+    recipeses:PropTypes.object.isRequired,
+}
 
 export default Holding;
