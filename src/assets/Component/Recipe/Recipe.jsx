@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { CiClock2 } from "react-icons/ci";
 import { FaFire } from "react-icons/fa";
-const Recipe = ({recipe}) => {
+const Recipe = ({recipe,handleclick1}) => {
     const {recipe_name,recipe_image,short_description,ingredients,preparing_time,calories}=recipe;
     return (
         <div>
@@ -33,7 +33,7 @@ const Recipe = ({recipe}) => {
        
     </div>
     <div className="mt-5">
-    <button className="btn btn-success w-full ">Want to cook</button>
+    <button className="btn btn-success w-full " onClick={handleclick1}>Want to cook</button>
     </div>
   </div>
 </div>
@@ -41,7 +41,8 @@ const Recipe = ({recipe}) => {
     );
 };
 Recipe.propTypes={
-    recipe:PropTypes.object.isRequired
+    recipe:PropTypes.object.isRequired,
+    handleclick1:PropTypes.func
     
 }
 export default Recipe;
