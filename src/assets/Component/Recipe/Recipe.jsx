@@ -33,7 +33,7 @@ const Recipe = ({recipe,handleclick1}) => {
        
     </div>
     <div className="mt-5">
-    <button className="btn btn-success w-full " onClick={handleclick1}>Want to cook</button>
+    <button className="btn btn-success w-full " onClick={()=>handleclick1(recipe)}>Want to cook</button>
     </div>
   </div>
 </div>

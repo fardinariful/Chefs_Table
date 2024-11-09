@@ -6,17 +6,21 @@ import Rescipes from './assets/Component/Rescipes/Rescipes'
 
 function App() {
  const [recipeses,setrecipeses] = useState([]);
- 
+ const [currentres,setcurrentres]=useState([]);
  const handleclick1=recipe=>{
   const newrecipes=[...recipeses,recipe];
   setrecipeses(newrecipes);
  }
 
+
+ const handleclick2=currentres=>{
+  
+ }
   return (
     <>
     <div className='container ml-10'>
     <Header></Header>
-    <div className='flex flex-row justify-between'>
+    <div className='flex flex-row justify-between gap-10 mt-20'>
     <Rescipes handleclick1={handleclick1}></Rescipes>
     <Holding recipeses={recipeses}></Holding>
     </div>
