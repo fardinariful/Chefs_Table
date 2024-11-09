@@ -1,7 +1,10 @@
+
+
 const TryCook = ({ wantcook }) => {
     const { recipe_name, preparing_time, calories } = wantcook;
-
+     
     return (
+        <>
         <tr className="text-gray-700 bg-gray-100">
             <td className="py-3 px-6 border-b ">{recipe_name}</td>
             <td className="py-3 px-6 border-b ">{calories}</td>
@@ -12,6 +15,8 @@ const TryCook = ({ wantcook }) => {
                 </button>
             </td>
         </tr>
+        
+        </>
     );
 };
 

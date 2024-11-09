@@ -1,7 +1,9 @@
 import PropTypes from 'prop-types';
 import TryCook from '../TryCook/TryCook';
+import { useState } from 'react';
 
-const Holding = ({ recipeses }) => {
+const Holding = ({ recipeses}) => {
+   
     return (
         <div className="w-1/3 mr-12">
             <h3 className='text-center'>Want to cook: {recipeses.length}</h3>
@@ -19,6 +21,7 @@ const Holding = ({ recipeses }) => {
                     ))}
                 </tbody>
             </table>
+            
         </div>
     );
 };
