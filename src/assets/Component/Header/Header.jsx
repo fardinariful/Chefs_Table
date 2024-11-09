@@ -57,6 +57,11 @@ const Header = () => {
         </div>
      
     </div>
+
+    <div className="flex flex-col justify-center items-center text-center mt-10">
+            <h3 className="text-3xl font-medium">Our Rescipe</h3>
+            <p className="text-xl">Indulge in warm, satisfying dishes that bring the flavors <br /> of home to your table. Perfect for cozy evenings and family gatherings.</p>
+            </div> 
 </>
     );
 };
