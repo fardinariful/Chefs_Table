@@ -1,7 +1,10 @@
 import { FaRegCircleUser } from "react-icons/fa6";
+import './Header.css'
 // import { CiSearch } from "react-icons/ci";
 const Header = () => {
+   
     return (
+        <>
         <div className="navbar bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
@@ -40,7 +43,21 @@ const Header = () => {
    <span className="text-3xl">  <FaRegCircleUser></FaRegCircleUser></span>
   
   </div>
-</div>
+    </div>
+     <div className=" background ">
+        <div className="text-center flex flex-col items-center justify-center h-full">
+        <p className="text-5xl text-white font-semibold">Your Culinary Adventure <br /> Begins Here</p>
+        <p className="p-8 text-white text-xl">Embark on a journey of flavors where every dish is crafted with passion and precision. Discover unique tastes, fresh ingredients, and exquisite presentations that turn every meal into a memorable experience.</p>
+        <div className="flex flex-row gap-3">
+        <button className="btn btn-outline btn-accent ">Explore Now</button>
+        <button className="btn btn-outline btn-accent">Our Feedback</button>
+        
+        </div>
+       
+        </div>
+     
+    </div>
+</>
     );
 };
 

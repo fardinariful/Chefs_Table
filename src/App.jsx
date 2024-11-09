@@ -6,7 +6,10 @@ function App() {
 
   return (
     <>
-      <Header></Header>
+    <div className='container ml-10'>
+    <Header></Header>
+    </div>
+     
     </>
   )
 }
