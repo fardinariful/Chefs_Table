@@ -1,9 +1,16 @@
 import PropTypes from 'prop-types';
 import TryCook from '../TryCook/TryCook';
 import { useState } from 'react';
+import CurrentCooks from '../CurrentCooks/CurrentCooks';
 
 const Holding = ({ recipeses}) => {
-   
+   const [currentcook,setcurrentcook]=useState([]);
+
+   const handleclick2=currentres=>{
+    //console.log(currentres);
+    const newcurrentres=[...currentcook,currentres];
+    setcurrentcook(newcurrentres);
+   }
     return (
         <div className="w-1/3 mr-12">
             <h3 className='text-center'>Want to cook: {recipeses.length}</h3>
@@ -17,11 +24,11 @@ const Holding = ({ recipeses}) => {
                 </thead>
                 <tbody>
                     {recipeses.map((wantcook) => (
-                        <TryCook key={wantcook.id} wantcook={wantcook} />
+                        <TryCook key={wantcook.id} wantcook={wantcook}  handleclick2={handleclick2}/>
                     ))}
                 </tbody>
             </table>
-            
+            <CurrentCooks currentcook={currentcook}></CurrentCooks>
         </div>
     );
 };
