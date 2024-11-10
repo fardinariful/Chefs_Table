@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 const CurrentCook = ({ currentlyCook }) => {
     const { recipe_name, preparing_time, calories } = currentlyCook;
     return (
@@ -9,4 +10,11 @@ const CurrentCook = ({ currentlyCook }) => {
     );
 };
 
+
+CurrentCook.propTypes={
+    
+    
+    currentlyCook:PropTypes.array
+    
+}
 export default CurrentCook;

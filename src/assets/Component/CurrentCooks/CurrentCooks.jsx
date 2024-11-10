@@ -1,5 +1,5 @@
 import CurrentCook from "../CurrentCook/CurrentCook";
-
+import PropTypes from 'prop-types';
 const CurrentCooks = ({ currentcook }) => {
     return (
         <div>
@@ -20,6 +20,9 @@ const CurrentCooks = ({ currentcook }) => {
             </table>
         </div>
     );
+};
+CurrentCooks.propTypes = {
+    currentcook: PropTypes.array.isRequired
 };
 
 export default CurrentCooks;

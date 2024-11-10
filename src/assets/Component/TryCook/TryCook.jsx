@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 const TryCook = ({ wantcook,handleclick2 }) => {
     const { recipe_name, preparing_time, calories } = wantcook;
@@ -20,4 +20,11 @@ const TryCook = ({ wantcook,handleclick2 }) => {
     );
 };
 
+
+TryCook.propTypes={
+    
+    handleclick2:PropTypes.func,
+    wantcook:PropTypes.array
+    
+}
 export default TryCook;
